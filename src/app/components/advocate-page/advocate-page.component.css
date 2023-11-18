@@ -1,0 +1,49 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.content {
+    position: absolute;
+    margin-top: 12%;
+    padding-bottom: 40px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* 將 align-items 設置為 center */
+    gap: 40px;
+    display: flex;
+}
+
+.background-picture {
+    width: 100%;
+    height: auto;
+    z-index: -1; /* 將背景圖片設置為更低的層級 */
+}
+
+
+.title-text {
+    color: #FF994B;
+    font-size: 50px;
+    font-family: Noto Sans;
+    font-weight: 500;
+}
+
+.gdp {
+    width: 75%;
+}
+
+.gdp span {
+    color: #334155;
+    font-size: 20px;
+    font-family: Noto Sans;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.30px;
+    word-wrap: break-word;
+}

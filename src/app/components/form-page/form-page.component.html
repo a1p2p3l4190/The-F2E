@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="content">
+        <div class="title-text">民眾服務信箱</div>
+        <div class="subtitle">您的聲音，我們的行動!</div>
+        <div class="description">
+            <p>親愛的鄉親，每一位市民的意見都是我們社區前進的原動力。</p>
+            <p>無論大小事，我都誠摯希望聽到您的建議。</p>
+            <p>分享您的想法，一同為我們的未來打造更美好！</p>
+        </div>
+        <form class="formField">
+            <p>您的姓名</p>
+            <input type="text" formControlName="name" name="name" class="inputField" />
+            <p>您的Email</p>
+            <input type="text" formControlName="email" name="email" class="inputField" />
+            <p>您的手機</p>
+            <input type="text" formControlName="mobile" name="mobile" class="inputField" />
+            <p>您的建言</p>
+            <textarea formControlName="introduction" name="introduction" class="textareaField" cols="30" rows="10"
+                placeholder="請描寫更多信息..."></textarea>
+            <br/>
+            <button class="submitButton" (onclick)="submit()">送出</button>
+        </form>
+    </div>
+</div>
